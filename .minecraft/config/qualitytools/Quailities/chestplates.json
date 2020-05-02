@@ -11,7 +11,12 @@
       }
     ],
     "blacklist": [
-    
+      {
+        "item": "toughasnails:wool_chestplate"
+      },
+      {
+        "item": "toughasnails:jelled_slime_chestplate"
+      }
     ],
     "qualities": [
       {

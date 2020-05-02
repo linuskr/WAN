@@ -10,7 +10,12 @@
       }
     ],
     "blacklist": [
-    
+      {
+        "item": "toughasnails:wool_leggings"
+      },
+      {
+        "item": "toughasnails:jelled_slime_leggings"
+      }
     ],
     "qualities": [
       {

@@ -10,7 +10,12 @@
       }
     ],
     "blacklist": [
-    
+      {
+        "item": "toughasnails:wool_helmet"
+      },
+      {
+        "item": "toughasnails:jelled_slime_helmet"
+      }
     ],
     "qualities": [
       {

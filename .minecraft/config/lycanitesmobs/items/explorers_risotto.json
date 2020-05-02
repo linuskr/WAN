@@ -1,6 +1,6 @@
 {
   "name": "explorers_risotto",
-  "loadDefault": true,
+  "loadDefault": false,
   "group": "items",
   "maxStackSize": 16,
   "food": {
@@ -31,7 +31,7 @@
       {
         "effectId": "lycanitesmobs:swiftswimming",
         "duration": 120,
-        "amplifier": 4,
+        "amplifier": 2,
         "chance": 1.0
       },
       {

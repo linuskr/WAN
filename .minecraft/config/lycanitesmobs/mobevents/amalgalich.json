@@ -2,14 +2,16 @@
   "name": "amalgalich",
   "type": "event",
   "enabled": true,
-  "loadDefault": true,
+  "loadDefault": false,
   "channel": "boss",
   "duration": 600,
   "conditions": [
     {
       "type": "world",
-      "dimensionIds": [],
-      "dimensionListType": "blacklist"
+      "dimensionIds": [
+        0
+      ],
+      "dimensionListType": "whitelist"
     }
   ],
   "levelBoostMax": 0,

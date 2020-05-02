@@ -1,6 +1,6 @@
 {
   "name": "battle_burrito",
-  "loadDefault": true,
+  "loadDefault": false,
   "group": "items",
   "maxStackSize": 16,
   "food": {
@@ -30,13 +30,13 @@
       },
       {
         "effectId": "minecraft:regeneration",
-        "duration": 20,
+        "duration": 60,
         "amplifier": 1,
         "chance": 1.0
       },
       {
         "effectId": "lycanitesmobs:rejuvenation",
-        "duration": 10,
+        "duration": 20,
         "amplifier": 0,
         "chance": 1.0
       }

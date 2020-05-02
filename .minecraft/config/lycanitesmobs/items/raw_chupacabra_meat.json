@@ -1,6 +1,6 @@
 {
   "name": "raw_chupacabra_meat",
-  "loadDefault": true,
+  "loadDefault": false,
   "group": "items",
   "maxStackSize": 64,
   "food": {
@@ -12,7 +12,7 @@
     "effects": [
       {
         "effectId": "lycanitesmobs:fear",
-        "duration": 20,
+        "duration": 15,
         "amplifier": 0,
         "chance": 1.0
       }

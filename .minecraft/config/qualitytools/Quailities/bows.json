@@ -1,20 +1,24 @@
 {
     "comment": "These qualities will apply for bows, and possibly for guns from
                 other mods if they extend the vanilla bow class. For more info
-                about how to edit this file and add more files, visit 
+                about how to edit this file and add more files, visit
                 https://bitbucket.org/Tmtravlr/qualitytools/wiki/Home",
-    
+
     "slot": [
         "mainhand",
         "offhand"
     ],
     "whitelist": [
-      {
-        "class": "ItemBow"
-      }
+	 {
+	   "class": "ItemBow"
+	 },
+	 {
+	   "class": "ItemCrossbow"
+	 },
     ],
+	
     "blacklist": [
-    
+
     ],
     "qualities": [
       {
@@ -68,6 +72,18 @@
             "operation": 2
           }
         ]
-      }
+      },
+      {
+        "name": "quality.legendary.name",
+        "color": "gold",
+        "weight": 2,
+        "attributes": [
+          {
+            "name": "potioncore.projectileDamage",
+            "amount": 0.15,
+            "operation": 2
+          }
+        ]
+	  }
     ]
 }

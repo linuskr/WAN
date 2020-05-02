@@ -6,7 +6,7 @@
         "burning": "true"
       }
     },
-    "temperature": 5.0
+    "temperature": 8.0
   },
   {
     "state": {
@@ -42,5 +42,47 @@
       "properties": {}
     },
     "temperature": 5.0
+  },
+  {
+    "state": {
+      "block": "campfire:campfire",
+      "properties": {}
+    },
+    "temperature": 6.0
+  },
+  {
+    "state": {
+      "block": "lycanitesmobs:moglava",
+      "properties": {}
+    },
+    "temperature": 15.0
+  },
+  {
+    "state": {
+      "block": "lycanitesmobs:ooze",
+      "properties": {}
+    },
+    "temperature": -15.0
+  },
+  {
+    "state": {
+      "block": "lycanitesmobs:rabbitooze",
+      "properties": {}
+    },
+    "temperature": -15.0
+  },
+  {
+    "state": {
+      "block": "lycanitesmobs:frostfire",
+      "properties": {}
+    },
+    "temperature": -5.0
+  },
+  {
+    "state": {
+      "block": "lycanitesmobs:icefire",
+      "properties": {}
+    },
+    "temperature": -8.0
   }
 ]

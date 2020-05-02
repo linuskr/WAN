@@ -1,6 +1,6 @@
 {
   "name": "cooked_joust_meat",
-  "loadDefault": true,
+  "loadDefault": false,
   "group": "items",
   "maxStackSize": 64,
   "food": {
@@ -12,7 +12,7 @@
     "effects": [
       {
         "effectId": "minecraft:speed",
-        "duration": 20,
+        "duration": 15,
         "amplifier": 2,
         "chance": 1.0
       }

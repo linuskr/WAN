@@ -26,11 +26,11 @@ templateInstancesMinDistance=256
 anyRuinsMinDistance=64
 #
 # min/max distances overworld templates can have from world spawn (0 = no limit)
-anySpawnMinDistance=32
+anySpawnMinDistance=0
 anySpawnMaxDistance=0
 #
 # allow displaying a block's data by hitting it with a stick
-enableStick=true
+enableStick=false
 #
 # dimension IDs whitelisted for ruins spawning, add custom dimensions IDs here as needed
 allowedDimensions=0,1,-1

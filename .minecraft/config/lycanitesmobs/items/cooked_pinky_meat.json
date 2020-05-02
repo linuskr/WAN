@@ -1,6 +1,6 @@
 {
   "name": "cooked_pinky_meat",
-  "loadDefault": true,
+  "loadDefault": false,
   "group": "items",
   "maxStackSize": 64,
   "food": {
@@ -13,7 +13,7 @@
       {
         "effectId": "minecraft:strength",
         "duration": 20,
-        "amplifier": 1,
+        "amplifier": 0,
         "chance": 1.0
       }
     ]

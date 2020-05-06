@@ -1,6 +1,6 @@
 {
   "general": {
-    "despawnItem": 6000,
+    "despawnItem": 60000,
     "customThrow": true,
     "fallSounds": true,
     "enableIgniting": true,
@@ -189,7 +189,7 @@
     }
   },
   "pickup": {
-    "customPickup": false,
+    "customPickup": true,
     "pickupWhenSneaking": true,
     "maximumPickupRange": 5.0,
     "pickupMinedImmediately": false,

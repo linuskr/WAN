@@ -1,1 +1,1 @@
-mods.jei.JEI.hide(<buildcraftsilicon:plug_facade>);
+mods.jei.JEI.hide(<buildcraftsilicon:plug_facade>, false);

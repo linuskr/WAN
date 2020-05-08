@@ -84,5 +84,14 @@
       "properties": {}
     },
     "temperature": -8.0
+  },
+  {
+    "state": {
+      "block": "notreepunching:fire_pit",
+      "properties": {
+        "lit": "true"
+      }
+    },
+    "temperature": 8.0
   }
 ]

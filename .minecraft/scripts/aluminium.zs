@@ -1,5 +1,7 @@
 import crafttweaker.oredict.IOreDict;
 
+print("Running 'aluminium.zs'...");
+
 val aluminiumIngot = <ore:ingotAluminium>;
 val aluminumIngot = <ore:ingotAluminum>;
 
@@ -56,3 +58,5 @@ val aluminumBlock = <ore:blockAluminum>;
 
 aluminiumBlock.addAll(aluminumBlock);
 aluminumBlock.mirror(aluminiumBlock);
+
+print("Finished 'aluminium.zs'");

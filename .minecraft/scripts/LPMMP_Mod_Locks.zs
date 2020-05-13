@@ -24,7 +24,8 @@ addModLock("enderstorage", "reskillable:building|20", "reskillable:gathering|15"
 addModLock("morphtool", "reskillable:building|25");
 addModLock("immersivetech", "reskillable:building|20", "reskillable:gathering|20");
 addModLock("rebornstorage", "reskillable:gathering|20", "reskillable:building|15");
-addModLock("pressure", "reskillable:building|20");addModLock("xnet", "reskillable:mining|20", "reskillable:building|15");
+addModLock("pressure", "reskillable:building|20");
+addModLock("xnet", "reskillable:mining|20", "reskillable:building|15");
 
 
 addModLock("projectred-transmission", "reskillable:magic|15", "reskillable:gathering|10");
@@ -38,6 +39,6 @@ addModLock("projectred-compat", "reskillable:magic|15", "reskillable:gathering|1
 addModLock("projectred-integration", "reskillable:magic|15", "reskillable:gathering|10");
 
 
-addModLock("nuclearcraft", "reskillable:build|25", "reskillable:gathering|25", "reskillable:mining|25");
+// addModLock("nuclearcraft", "reskillable:build|25", "reskillable:gathering|25", "reskillable:mining|25");
 
 print("Finished 'LPMMP_Mod_Locks.zs'");

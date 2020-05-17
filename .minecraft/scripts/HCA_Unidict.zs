@@ -225,4 +225,8 @@ rodAluminium.add(<immersiveengineering:material:3>);
 var crystalCrudeOil = <ore:crystalCrudeOil>;
 crystalCrudeOil.add(<immersivepetroleum:material>);
 
+
+// end reborn workaround
+<ore:ingotTungsten>.remove(<endreborn:item_ingot_wolframium>);
+
 print("Finished 'HCA_Unidict.zs'");

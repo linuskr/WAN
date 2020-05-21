@@ -69,15 +69,27 @@ for itemdef in game.items {
 
 		if(toolClass == "pickaxe") {
 
+			if(item.getHarvestLevel(toolClass) < 1) {
+				continue;
+			}
+
 			print("adding " + ("reskillable:mining|" + ((4 * item.getHarvestLevel(toolClass)) as string)) + " to " + item.name);
 			addRequirement(item, ("reskillable:mining|" + ((4 * item.getHarvestLevel(toolClass)) as string)));
 
 		} else if(toolClass == "axe") {
 
+			if(item.getHarvestLevel(toolClass) < 1) {
+				continue;
+			}
+
 			print("adding " + ("reskillable:gathering|" + ((4 * item.getHarvestLevel(toolClass)) as string)) + " to " + item.name);
 			addRequirement(item, ("reskillable:gathering|" + ((4 * item.getHarvestLevel(toolClass)) as string)));
 
 		} else if(toolClass == "shovel") {
+
+			if(item.getHarvestLevel(toolClass) < 1) {
+				continue;
+			}
 
 			print("adding " + ("reskillable:gathering|" + ((4 * item.getHarvestLevel(toolClass)) as string)) + " to " + item.name);
 			addRequirement(item, ("reskillable:gathering|" + ((4 * item.getHarvestLevel(toolClass)) as string)));

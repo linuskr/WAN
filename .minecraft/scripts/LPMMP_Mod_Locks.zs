@@ -18,7 +18,7 @@ addModLock("opencomputers", "reskillable:magic|10", "reskillable:mining|10", "re
 addModLock("refinedstorage", "reskillable:gathering|15", "reskillable:building|15", "reskillable:mining|15");
 addModLock("redstoneflux", "reskillable:mining|15", "reskillable:building|15");
 addModLock("rftools", "reskillable:magic|20", "reskillable:attack|15", "reskillable:mining|15");
-addModLock("psi", "reskillable:magic|20", "reskillable:mining|20");
+addModLock("psi", "reskillable:magic|12", "reskillable:mining|8", "reskillable:attack|12");
 addModLock("enderio", "reskillable:magic|20", "reskillable:gathering|15", "reskillable:mining|15", "reskillable:building|15");
 addModLock("enderstorage", "reskillable:building|20", "reskillable:gathering|15");
 addModLock("morphtool", "reskillable:building|25");
@@ -40,5 +40,20 @@ addModLock("projectred-integration", "reskillable:magic|15", "reskillable:gather
 
 
 // addModLock("nuclearcraft", "reskillable:build|25", "reskillable:gathering|25", "reskillable:mining|25");
+
+
+addModLock("immersiveengineering", "reskillable:mining|10", "reskillable:building|16", "reskillable:magic|12");
+addModLock("trinity", "reskillable:mining|16", "reskillable:building|24", "reskillable:magic|20");
+addModLock("railcraft", "reskillable:mining|8", "reskillable:building|12");
+addModLock("rftoolsdim", "reskillable:magic|20", "reskillable:attack|15", "reskillable:mining|15", "reskillable:building|24");
+addModLock("qmd", "reskillable:magic|26", "reskillable:building|26");
+addModLock("plustic", "reskillable:mining|10", "reskillable:attack|10");
+addModLock("openmodularturrets", "reskillable:attack|16");
+addModLock("ompd", "reskillable:defense|16");
+addModLock("nuclearcraft", "reskillable:building|16", "reskillable:magic|12");
+addModLock("buildcraftcore", "reskillable:building|8");
+addModLock("buildcraftfactory", "reskillable:building|12");
+addModLock("buildcraftsilicon", "reskillable:building|8", "reskillable:magic|8");
+addModLock("buildcrafttransport", "reskillable:building|12");
 
 print("Finished 'LPMMP_Mod_Locks.zs'");
